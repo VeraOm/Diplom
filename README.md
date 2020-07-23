@@ -35,5 +35,5 @@
 
 Выполнение авто-тестов запускается файлом `gradlew.bat clean build` (в Windows) или `gradlew clean build` (в Linux).
 
-Для получения отчета Allure необходимо сначала выполнить команду `gradlew allureReport`, для подготовки Allure. Затем запустить автотесты командой `gradlew clean test allureReport`. Для просмотра отчета Allure необходимо выполнить команду `gradlew allureServe` и дождаться открытия отчета в браузере.
+Для получения отчета Allure необходимо сначала выполнить команду `gradlew allureReport`, для подготовки Allure. Затем запустить автотесты командой `gradlew clean build allureReport`. Для просмотра отчета Allure необходимо выполнить команду `gradlew allureServe` и дождаться открытия отчета в браузере.
 
